@@ -1,0 +1,84 @@
+
+
+
+              2.1.0. SAR Tissue Properties
+                     ------------------------------------------
+
+              2.1.1. Constants:
+                     -----------------------------
+
+              2.1.2. Free space impedance : 376.991 [ohms]
+
+              2.1.3. Free space permeability : 1.25664e-06 [H/m]
+
+              2.1.4. Free space permittivity : 8.85419e-12 [F/m]
+
+              2.1.5. Free space EM wave speed: 3e+08 [m/s]
+
+                     ------------------------------------------
+
+
+              2.2.0. Variables:
+
+                     -----------------------------
+
+              2.2.2. Transmission power : 0.0316 [W]
+
+              2.2.3. Device distance : 0 [m]
+
+              2.2.4. Tissue minimum conductivity : 0.26 [S/m]
+
+              2.2.5. Tissue maximum conductivity : 1.25 [S/m]
+
+              2.2.6. Tissue density : 1010 [Kg/m^3]
+
+              2.2.7. Center frequency : 1.95e+09 [Hz]
+
+              2.2.8. Tissue type : Skin
+
+
+                     -----------------2.2.1 :Tissues Size----------------------
+
+              2.2.9. Skin size by radius: 0.0900001 [m]
+
+              2.2.10. Fat size by radius: 0.0890001 [m]
+
+              2.2.11. Bone size by radius: 0.0876 [m]
+
+              2.2.12. Brain size by radius: 0.0810001 [m]
+
+              2.2.13. Skin size by thickness: 0.000999001 [m]
+
+              2.2.14. Fat size by thickness: 0.001404 [m]
+
+              2.2.15. Bone size by thickness: 0.006597 [m]
+
+              2.2.16. Brain size by thickness: 0.0810001 [m]
+
+
+                     -----------------2.2.2 :Tissues Power----------------------
+
+             2.2.2.1. Skin tissue attenuated power : 0.388212 [dBm]
+
+             2.2.2.2. Power out of skin tissue(after attenuation) : 0.00183769 [W]
+
+                     ------------------------------------------
+
+              2.3.0. Results:
+                     ----------------------------- 
+
+              2.3.1. Tissue impedance : 61.8018 [ohms]
+
+              2.3.2. Skin depth : 0.022352 [m]
+
+              2.3.3. Power density : 5.03321 [W/m^2]
+
+              2.3.4. Electric field intensity : 17.6369 [V/m]
+
+              2.3.5. Specific Absorption Rate (SAR) : 0.192489 [W/Kg]
+
+
+
+                     ---------------------------------< RF-Activty >-------------------------------
+
+

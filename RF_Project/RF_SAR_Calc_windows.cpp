@@ -8,8 +8,8 @@
 #include<fstream>
 #include<string.h>
 #include<bits/stdc++.h>
-#include "windows.h"
         //log library
+#include "windows.h"
 #define avatar "RF-Activty"
 
 /*
@@ -97,57 +97,57 @@ void optmzr_t()
     {
         // std::chrono::milliseconds timespan(250);
         // std::this_thread::sleep_for(timespan);
-        // linux
+        // for linux
         Sleep(250); 
-        // windows
+        // for windows
     }
 void optmzr_hlf_sec_t()
     {
         // std::chrono::milliseconds timespan(500);
         // std::this_thread::sleep_for(timespan);
-        // linux
+        // for linux
         Sleep(500); 
-        // windows
+        // for windows
     }
 void optmzr_1_sec_t()
     {
         // std::chrono::milliseconds timespan(1000);
         // std::this_thread::sleep_for(timespan);
-        // linux
+        // for linux
         Sleep(1000); 
-        // windows
+        // for windows
     }
 void optmzr_1_hlf_sec_t()
     {
         // std::chrono::milliseconds timespan(1500);
         // std::this_thread::sleep_for(timespan);
-        // linux
+        // for linux
         Sleep(1500); 
-        // windows
+        // for windows
     }
 void optmzr_2_sec_t()
     {
         // std::chrono::milliseconds timespan(2000);
         // std::this_thread::sleep_for(timespan);
-        // linux
+        // for linux
         Sleep(2000); 
-        // windows
+        // for windows
     }
 void optmzr_2_n_hlf_sec_t()
     {
         // std::chrono::milliseconds timespan(2500);
         // std::this_thread::sleep_for(timespan);
-        // linux
+        // for linux
         Sleep(2500); 
-        // windows
+        // for windows
     }
 void optmzr_3_sec_t()
     {
         // std::chrono::milliseconds timespan(3000);
         // std::this_thread::sleep_for(timespan);
-        // linux
+        // for linux
         Sleep(3000); 
-        // windows
+        // for windows
     }
 void shrt_oprtns_optmzr_tmr()
     {
@@ -174,9 +174,9 @@ void loading_fn()
                     cout <<". ";
                     // std::chrono::milliseconds timespan(150);
                     // std::this_thread::sleep_for(timespan);
-                    // linux
+                    // for linux
                     Sleep(150); 
-                    // windows
+                    // for windows
                 }
             }
             else if(z > 1)
@@ -186,9 +186,9 @@ void loading_fn()
                     cout <<". ";
                     // std::chrono::milliseconds timespan(200);
                     // std::this_thread::sleep_for(timespan);
-                    // linux
+                    // for linux
                     Sleep(200); 
-                    // windows
+                    // for windows
                 }
             }
         }
@@ -356,9 +356,9 @@ void compute_t_rads(){
             loading_fn();
             optmzr_1_sec_t(); //flow optimizer fn
             // std::system("clear");
-                // linux
-                system("CLS"); 
-                // windows
+                // for linux
+            system("CLS"); 
+                // for windows
                 //clears console
             cout <<"\n\n"<<endl;
                 //optimizer fn
@@ -409,19 +409,110 @@ void prnt_sar_file(){
         SAR_print_file << "\n\n" <<setw(21)<<"    2.2.8. "<<setw(6)<<"Tissue type : "<<tissue_type<<"";
         if(tissue_type == "Brain" || anlyss_optn == "y" || anlyss_optn == "Y"){
             if(tissue_type == "Brain" && (anlyss_optn == "y" || anlyss_optn == "Y")){
-                SAR_print_file << "\n\n" <<setw(21)<<"    2.2.9. "<<setw(6)<<"Skin size: "<<skin_sz<<" [m]";
-                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.10. "<<setw(6)<<"Fat size: "<<fat_sz<<" [m]";
-                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.11. "<<setw(6)<<"Bone size: "<<bone_sz<<" [m]";
-                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.12. "<<setw(6)<<"Brain size: "<<brain_sz<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n\n" <<setw(21)<<"           "<<setw(6)<<"-----------------2.2.1 :Tissues Size----------------------";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(21)<<"    2.2.1.1. "<<setw(6)<<"Skin size by radius: "<<skin_sz<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.1.2. "<<setw(6)<<"Fat size by radius: "<<fat_sz<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.1.3. "<<setw(6)<<"Bone size by radius: "<<bone_sz<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.1.4. "<<setw(6)<<"Brain size by radius: "<<brain_sz<<" [m]";
+
+                // -------tissues thickness--------
+
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.1.5. "<<setw(6)<<"Skin size by thickness: "<<(skin_tsse_thcknss)<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.1.6. "<<setw(6)<<"Fat size by thickness: "<<(fat_tsse_thcknss)<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.1.7. "<<setw(6)<<"Bone size by thickness: "<<(bone_tsse_thcknss)<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.1.8. "<<setw(6)<<"Brain size by thickness: "<<(brain_tsse_thcknss)<<" [m]";
+                optmzr_t(); //flow optimizer fn
+
             }
+
             else if(tissue_type == "Brain" && (anlyss_optn == "n" || anlyss_optn == "N")){
-                SAR_print_file << "\n\n" <<setw(21)<<"    2.2.9. "<<setw(6)<<"Brain size: "<<brain_sz<<" [m]";
+                SAR_print_file << "\n\n" <<setw(21)<<"    2.2.9. "<<setw(6)<<"Brain size by radius: "<<brain_sz<<" [m]";
+                optmzr_t(); //flow optimizer fn
             }
             else if(tissue_type != "Brain" && (anlyss_optn == "y" || anlyss_optn == "Y")){
-                SAR_print_file << "\n\n" <<setw(21)<<"    2.2.9. "<<setw(6)<<"Skin size: "<<skin_sz<<" [m]";
-                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.10. "<<setw(6)<<"Fat size: "<<fat_sz<<" [m]";
-                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.11. "<<setw(6)<<"Bone size: "<<bone_sz<<" [m]";
-                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.12. "<<setw(6)<<"Brain size: "<<brain_sz<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n\n" <<setw(21)<<"           "<<setw(6)<<"-----------------2.2.1 :Tissues Size----------------------";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(21)<<"    2.2.9. "<<setw(6)<<"Skin size by radius: "<<skin_sz<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.10. "<<setw(6)<<"Fat size by radius: "<<fat_sz<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.11. "<<setw(6)<<"Bone size by radius: "<<bone_sz<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.12. "<<setw(6)<<"Brain size by radius: "<<brain_sz<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                // -------tissues thickness--------
+
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.13. "<<setw(6)<<"Skin size by thickness: "<<(skin_tsse_thcknss)<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.14. "<<setw(6)<<"Fat size by thickness: "<<(fat_tsse_thcknss)<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.15. "<<setw(6)<<"Bone size by thickness: "<<(bone_tsse_thcknss)<<" [m]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.16. "<<setw(6)<<"Brain size by thickness: "<<(brain_tsse_thcknss)<<" [m]";
+                optmzr_t(); //flow optimizer fn
+
+            }
+        }           
+        if(powr_attntn_flag == "y" || powr_attntn_flag == "y"){
+            optmzr_t(); //flow optimizer fn
+            SAR_print_file << "\n\n\n" <<setw(21)<<"           "<<setw(6)<<"-----------------2.2.2 :Tissues Power----------------------";
+            optmzr_t(); //flow optimizer fn
+            if(tissue_type == "Skin"){
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue attenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+            }
+            if(tissue_type == "Fat"){
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue attenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.3. "<<setw(6)<<"Fat tissue attenuated power : "<<fat_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.4. "<<setw(6)<<"Power out of fat tissue(after attenuation) : "<<fat_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+         }
+            if(tissue_type == "Bone"){
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue attenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.3. "<<setw(6)<<"Fat tissue attenuated power : "<<fat_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.4. "<<setw(6)<<"Power out of fat tissue(after attenuation) : "<<fat_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.5. "<<setw(6)<<"Bone tissue attenuated power : "<<bone_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.6. "<<setw(6)<<"Power out of bone tissue(after attenuation) : "<<bone_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+            }
+            if(tissue_type == "Brain"){
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue aattenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.3. "<<setw(6)<<"Fat tissue attenuated power : "<<fat_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.4. "<<setw(6)<<"Power out of fat tissue(after attenuation) : "<<fat_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.5. "<<setw(6)<<"Bone tissue attenuated power : "<<bone_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.6. "<<setw(6)<<"Power out of bone tissue(after attenuation) : "<<bone_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.7. "<<setw(6)<<"Brain tissue attenuated power : "<<brain_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                SAR_print_file << "\n\n" <<setw(22)<<"    2.2.2.8. "<<setw(6)<<"Power at brain tissue surface(after attenuation) : "<<brain_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
             }
         }
         SAR_print_file << "\n\n" <<setw(21)<<"           "<<setw(6)<<"------------------------------------------";
@@ -468,18 +559,31 @@ void oprtn_flow(){
             loading_fn();
             optmzr_1_sec_t(); //flow optimizer fn
             // std::system("clear");
-                // linux
-                system("CLS"); 
-                // windows
+                // for linux
+            system("CLS"); 
+                // for windows
                 //clears console
             cout <<"\n\n"<<endl;
                 //optimizer fn
             prog_init();
         }
                 //defines tissue type
+        // direct variables initialization
+        // fc = 2450000000;
+        // da = 0.05;
+        // Pt = 0.1;
+        // Gt = 1;
+        // ur = 1;
+
+        // er = 42.54;
+        // t_dnsty = 1030.0;
+        // t_min_cndvty = 0.26;
+        // t_cndvty = 1.511336;
+        // HD = .4544627933
+            //initialized variablle for trial
 
         cout << "\n" <<setw(21)<<"    1.1.0. "<<setw(6)<<"Enter: \n";
-        optmzr_1_sec_t(); //flow optimizer fn
+            optmzr_1_sec_t(); //flow optimizer fn
         cout << "\n" <<setw(21)<<"    1.1.1. "<<setw(6)<<"Center frequency in [Hz]: ";
         cin >> fc;
         cout << "\n" <<setw(21)<<"    1.1.2. "<<setw(6)<<"Device distance (da) in [m]: ";
@@ -494,9 +598,9 @@ void oprtn_flow(){
         cin >> ur;
         cout << "\n" <<setw(21)<<"    1.1.6. "<<setw(6)<<"Tissue density [p] in [Kg/m^3]: ";
         cin >> t_dnsty;
-        cout << "\n" <<setw(21)<<"    1.1.7. "<<setw(6)<<"Tissue minimum conductivity [σ] in [S/m]: ";
+        cout << "\n" <<setw(21)<<"    1.1.7. "<<setw(6)<<"Tissue minimum conductivity [s] in [S/m]: ";
         cin >> t_min_cndvty;
-        cout << "\n" <<setw(21)<<"    1.1.7. "<<setw(6)<<"Tissue maximum conductivity [σ] in [S/m]: ";
+        cout << "\n" <<setw(21)<<"    1.1.7. "<<setw(6)<<"Tissue maximum conductivity [s] in [S/m]: ";
         cin >> t_cndvty;
         optmzr_1_sec_t(); //flow optimizer fn
 
@@ -573,66 +677,15 @@ void oprtn_flow(){
                 cout << "\n\n" <<setw(22)<<"    2.2.1.8. "<<setw(6)<<"Brain size by thickness: "<<(brain_tsse_thcknss)<<" [m]";
                 optmzr_t(); //flow optimizer fn
 
-                if(powr_attntn_flag == "y" || powr_attntn_flag == "y"){
-                    optmzr_t(); //flow optimizer fn
-                    cout << "\n\n\n" <<setw(21)<<"           "<<setw(6)<<"-----------------2.2.2 :Tissues Size----------------------";
-                    optmzr_t(); //flow optimizer fn
-                    if(tissue_type == "Skin"){
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue attenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
-                        optmzr_t(); //flow optimizer fn
-                    }
-                    if(tissue_type == "Fat"){
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue attenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.3. "<<setw(6)<<"Fat tissue attenuated power : "<<fat_tsse_pwr_attenuated<<" [dBm]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.4. "<<setw(6)<<"Power out of fat tissue(after attenuation) : "<<fat_tsse_pwr_rcvd2<<" [W]";
-                        optmzr_t(); //flow optimizer fn
-                 }
-                    if(tissue_type == "Bone"){
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue attenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.3. "<<setw(6)<<"Fat tissue attenuated power : "<<fat_tsse_pwr_attenuated<<" [dBm]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.4. "<<setw(6)<<"Power out of fat tissue(after attenuation) : "<<fat_tsse_pwr_rcvd2<<" [W]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.5. "<<setw(6)<<"Bone tissue attenuated power : "<<bone_tsse_pwr_attenuated<<" [dBm]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.6. "<<setw(6)<<"Power out of bone tissue(after attenuation) : "<<bone_tsse_pwr_rcvd2<<" [W]";
-                        optmzr_t(); //flow optimizer fn
-                    }
-                    if(tissue_type == "Brain"){
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue aattenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.3. "<<setw(6)<<"Fat tissue attenuated power : "<<fat_tsse_pwr_attenuated<<" [dBm]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.4. "<<setw(6)<<"Power out of fat tissue(after attenuation) : "<<fat_tsse_pwr_rcvd2<<" [W]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.5. "<<setw(6)<<"Bone tissue attenuated power : "<<bone_tsse_pwr_attenuated<<" [dBm]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.6. "<<setw(6)<<"Power out of bone tissue(after attenuation) : "<<bone_tsse_pwr_rcvd2<<" [W]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.7. "<<setw(6)<<"Brain tissue attenuated power : "<<brain_tsse_pwr_attenuated<<" [dBm]";
-                        optmzr_t(); //flow optimizer fn
-                        cout << "\n\n" <<setw(22)<<"    2.2.2.8. "<<setw(6)<<"Power at brain tissue surface(after attenuation) : "<<brain_tsse_pwr_rcvd2<<" [W]";
-                        optmzr_t(); //flow optimizer fn
-                    }
-                }
-
             }
             else if(tissue_type == "Brain" && (anlyss_optn == "n" || anlyss_optn == "N")){
                 cout << "\n\n" <<setw(21)<<"    2.2.9. "<<setw(6)<<"Brain size by radius: "<<brain_sz<<" [m]";
                 optmzr_t(); //flow optimizer fn
             }
             else if(tissue_type != "Brain" && (anlyss_optn == "y" || anlyss_optn == "Y")){
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n\n" <<setw(21)<<"           "<<setw(6)<<"-----------------2.2.1 :Tissues Size----------------------";
+                optmzr_t(); //flow optimizer fn
                 cout << "\n\n" <<setw(21)<<"    2.2.9. "<<setw(6)<<"Skin size by radius: "<<skin_sz<<" [m]";
                 optmzr_t(); //flow optimizer fn
                 cout << "\n\n" <<setw(22)<<"    2.2.10. "<<setw(6)<<"Fat size by radius: "<<fat_sz<<" [m]";
@@ -652,6 +705,59 @@ void oprtn_flow(){
                 cout << "\n\n" <<setw(22)<<"    2.2.16. "<<setw(6)<<"Brain size by thickness: "<<(brain_tsse_thcknss)<<" [m]";
                 optmzr_t(); //flow optimizer fn
 
+            }
+        }            
+        if(powr_attntn_flag == "y" || powr_attntn_flag == "y"){
+            optmzr_t(); //flow optimizer fn
+            cout << "\n\n\n" <<setw(21)<<"           "<<setw(6)<<"-----------------2.2.2 :Tissues Power----------------------";
+            optmzr_t(); //flow optimizer fn
+            if(tissue_type == "Skin"){
+                cout << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue attenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+            }
+            if(tissue_type == "Fat"){
+                cout << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue attenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.3. "<<setw(6)<<"Fat tissue attenuated power : "<<fat_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.4. "<<setw(6)<<"Power out of fat tissue(after attenuation) : "<<fat_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+            }
+            if(tissue_type == "Bone"){
+                cout << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue attenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.3. "<<setw(6)<<"Fat tissue attenuated power : "<<fat_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.4. "<<setw(6)<<"Power out of fat tissue(after attenuation) : "<<fat_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.5. "<<setw(6)<<"Bone tissue attenuated power : "<<bone_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.6. "<<setw(6)<<"Power out of bone tissue(after attenuation) : "<<bone_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+            }
+            if(tissue_type == "Brain"){
+                cout << "\n\n" <<setw(22)<<"    2.2.2.1. "<<setw(6)<<"Skin tissue aattenuated power : "<<skin_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.2. "<<setw(6)<<"Power out of skin tissue(after attenuation) : "<<skin_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.3. "<<setw(6)<<"Fat tissue attenuated power : "<<fat_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.4. "<<setw(6)<<"Power out of fat tissue(after attenuation) : "<<fat_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.5. "<<setw(6)<<"Bone tissue attenuated power : "<<bone_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.6. "<<setw(6)<<"Power out of bone tissue(after attenuation) : "<<bone_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.7. "<<setw(6)<<"Brain tissue attenuated power : "<<brain_tsse_pwr_attenuated<<" [dBm]";
+                optmzr_t(); //flow optimizer fn
+                cout << "\n\n" <<setw(22)<<"    2.2.2.8. "<<setw(6)<<"Power at brain tissue surface(after attenuation) : "<<brain_tsse_pwr_rcvd2<<" [W]";
+                optmzr_t(); //flow optimizer fn
             }
         }
         optmzr_t(); //flow optimizer fn
@@ -734,9 +840,9 @@ void oprtn_flow(){
             loading_fn();
             optmzr_1_sec_t(); //flow optimizer fn
             // std::system("clear");
-                // linux
-                system("CLS"); 
-                // windows
+                // for linux
+            system("CLS"); 
+                // for windows
                 //clears console
             cout <<"\n\n"<<endl;
                 //optimizer fn
@@ -838,12 +944,12 @@ void prog_init(){
                 optmzr_1_sec_t(); //flow optimizer fn
                 loading_fn();
                 // std::system("clear");
-                    // linux
+                    // for linux
                 system("CLS"); 
-                    // windows
+                    // for windows
                     //clears console
-                prog_init();
-                    //recursion for program re-initialisation
+                    prog_init();
+                        //recursion for program re-initialisation
             }
         }
         else if(analysis_actn != 1 && analysis_actn != 2){
@@ -853,12 +959,10 @@ void prog_init(){
             optmzr_1_sec_t(); //flow optimizer fn
             loading_fn();
             // std::system("clear");
-                // linux
-                system("CLS"); 
-                // windows
+                // for linux
+            system("CLS"); 
+                // for windows
                 //clears console
-            prog_init();
-                //recursion for program re-initialisation
         }
 }
 int main()
@@ -894,6 +998,8 @@ float depth(float freq_val, float condvty_val){
 float pwr_trsmtd(float trans_pwr_val, float brn_sz){
     brain_sz = brn_sz;
             //brain size;
+    Pt = trans_pwr_val;
+            // initial transmitted power
     if(powr_attntn_flag == "Y" || powr_attntn_flag == "y")
     {
             skin_tsse_pwr_attenuated = 8.686 * (skin_tsse_thcknss / dpth);
@@ -1047,3 +1153,4 @@ float compute_tissue_rds(float head_circ){
     return 0;
 }
         //computes tissues radius
+

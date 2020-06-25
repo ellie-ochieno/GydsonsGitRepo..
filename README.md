@@ -1,2 +1,2 @@
-# GydsonsGitRepo..
-1st name z ma nickname
+# OchienoGitRepo..
+Tech-Profess | Open source enthusiast

@@ -547,16 +547,17 @@ void oprtn_flow(){
         }
                 //defines tissue type
         // direct variables initialization
-        // fc = 93300000;
-        // da = 0;
-        // Pt = .1305;
+        // fc = 3500000000;
+        // da = 0.0;
+        // Pt = 0.3981;
         // Gt = 1;
         // ur = 1;
 
-        // er = 70.26359;
-        // t_dnsty = 1030.0;
-        // t_min_cndvty = 0.036134;
-        // t_cndvty = 0.435428;
+        // t_min_cndvty = 0.155531;
+        // er = 14.112131;
+        // t_dnsty = 1850.0;
+        // t_cndvty = 0.906718;
+        // HD = .5654866776
             //initialized variablle for trial
 
         cout << "\n" <<setw(21)<<"    1.1.0. "<<setw(6)<<"Enter: \n";

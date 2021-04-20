@@ -1,0 +1,764 @@
+
+
+        =================================================================================
+        =               KFUPM CLINIC SYSTEM CONTROL MENU                                =
+        =================================================================================
+
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 5
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter new patient details
+        |
+        |        1. Patient name: Selinah H
+        |
+        |        2. Patient ID: 3244
+        |
+        |        Patient information successively saved...
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 5
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter new patient details
+        |
+        |        1. Patient name: Harry W
+        |
+        |        2. Patient ID: 3212
+        |
+        |        Patient information successively saved...
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 5
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter new patient details
+        |
+        |        1. Patient name: Joyce H
+        |
+        |        2. Patient ID: 3200
+        |
+        |        Patient information successively saved...
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 5
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter new patient details
+        |
+        |        1. Patient name: Edwin G
+        |
+        |        2. Patient ID: 3224
+        |
+        |        Patient information successively saved...
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 1
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Display all patients record information
+        |
+
+        =================================================================================
+        =               KFUPM CLINIC SYSTEM CONTROL MENU                                   =
+        =================================================================================
+
+        --------------------------------------------------------------------------------
+          Patient ID |  Patient Name    |    Weight  |  Ave. Weight  |  Visits
+        --------------------------------------------------------------------------------
+
+
+           3244         Selinah H               0            0            0
+
+           3212         Harry W               0            0            0
+
+           3200         Joyce H               0            0            0
+
+           3224         Edwin G               0            0            0
+        |
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 2
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Display specific patient information
+        |
+        |        Please enter patient ID: 3200
+        |
+
+        |       -------------------------------------------------------------------------------
+        |         Patient ID |  Patient Name    |    Weight  |  Ave. Weight  |  Visits
+        |       -------------------------------------------------------------------------------
+        |
+        |           3200         Joyce H               0            0            0
+        |
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 4
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter patient details to be updated
+        |
+        |        1. Patient ID: 3224
+        |
+        |        2. Patient weight: 44.44
+        |
+        |        3. Patient average weight (Kg): 45.34
+        |
+        |        4. Patient number of visits: 1
+        |
+        |        Patient information successively updated...
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 4
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter patient details to be updated
+        |
+        |        1. Patient ID: 3212
+        |
+        |        2. Patient weight: 47.33
+        |
+        |        3. Patient average weight (Kg): 47.41
+        |
+        |        4. Patient number of visits: 2
+        |
+        |        Patient information successively updated...
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 4
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter patient details to be updated
+        |
+        |        1. Patient ID: 3244
+        |
+        |        2. Patient weight: 44.65
+        |
+        |        3. Patient average weight (Kg): 45.43
+        |
+        |        4. Patient number of visits: 2
+        |
+        |        Patient information successively updated...
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 1
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Display all patients record information
+        |
+
+        =================================================================================
+        =               KFUPM CLINIC SYSTEM CONTROL MENU                                   =
+        =================================================================================
+
+        --------------------------------------------------------------------------------
+          Patient ID |  Patient Name    |    Weight  |  Ave. Weight  |  Visits
+        --------------------------------------------------------------------------------
+
+
+           3244         Selinah H               44.65            45.17            2
+
+           3212         Harry W               47.33            47.38            2
+
+           3200         Joyce H               0            0            0
+
+           3224         Edwin G               44.44            44.89            1
+        |
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 4
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter patient details to be updated
+        |
+        |        1. Patient ID: 3200
+        |
+        |        2. Patient weight: 44.32
+        |
+        |        3. Patient average weight (Kg): 44.42
+        |
+        |        4. Patient number of visits: 1
+        |
+        |        Patient information successively updated...
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 2
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Display specific patient information
+        |
+        |        Please enter patient ID: 3212
+        |
+        |       -------------------------------------------------------------------------------
+        |         Patient ID |  Patient Name    |    Weight  |  Ave. Weight  |  Visits
+        |       -------------------------------------------------------------------------------
+        |
+        |           3212         Harry W               47.33            47.38            2
+        |
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 1
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Display all patients record information
+        |
+
+        =================================================================================
+        =               KFUPM CLINIC SYSTEM CONTROL MENU                                   =
+        =================================================================================
+
+        --------------------------------------------------------------------------------
+          Patient ID |  Patient Name    |    Weight  |  Ave. Weight  |  Visits
+        --------------------------------------------------------------------------------
+
+
+           3244         Selinah H             44.65       45.17          2
+
+           3212         Harry W               47.33       47.38          2
+
+           3242         Joyce H               0            0             0
+
+           3224         Edwin G               44.44        44.89         1
+        |
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 4
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter patient details to be updated
+        |
+        |        1. Patient ID: 3242
+        |
+        |        2. Patient weight: 43.42
+        |
+        |        3. Patient average weight (Kg): 44.33
+        |
+        |        4. Patient number of visits: 2
+        |
+        |        Patient information successively updated...
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 1
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Display all patients record information
+        |
+
+        =================================================================================
+        =               KFUPM CLINIC SYSTEM CONTROL MENU                                   =
+        =================================================================================
+
+        --------------------------------------------------------------------------------
+          Patient ID |  Patient Name    |    Weight  |  Ave. Weight  |  Visits
+        --------------------------------------------------------------------------------
+
+
+           3244         Selinah H               44.65            45.17            2
+
+           3212         Harry W               47.33            47.38            2
+
+           3242         Joyce H               43.42            44.23            2
+
+           3224         Edwin G               44.44            44.89            1
+        |
+        
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 6
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Delete patient information from the record
+        |
+        |        Please enter patient ID: 3211
+        |
+        |        Error! Invalid Patient ID
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 6
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Delete patient information from the record
+        |
+        |        Please enter patient ID: 3212
+        |
+        |        Operation success! 
+        |        Patient information deleted
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 2
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Display specific patient information
+        |
+        |        Please enter patient ID: 4432
+        |
+        |        Error! Invalid Patient ID(4432)
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 4
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter patient details to be updated
+        |
+        |        1. Patient ID: 4223
+        |
+        |        2. Patient weight: 44.43
+        |
+        |        3. Patient average weight (Kg): 44.77
+        |
+        |        4. Patient number of visits: 2
+        |
+        |        Error! Invalid Patient ID
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 5
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Please enter new patient details
+        |
+        |        1. Patient name: 3244
+        |
+        |        2. Patient ID: 3244
+        |
+        |        Error! Patient ID(3244) already exists.
+        |
+        |-------------------------------------------------------------------
+        |
+        |       Press Enter key to continue...
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |
+        |  -Use the provided numbers to select a control operation
+        |
+        |
+        |       1. Display all Patient Record.
+        |       2. Display the Record of a particular Patient.
+        |       3. Display all Patient Weight.
+        |       4. Update Patient.
+        |       5. Add New Patient.
+        |       6. Delete Patient.
+        |
+        |       0. Exit.
+        |
+        |       Please select your choice: 0
+        |
+        |-------------------------------------------------------------------
+        |
+        |
+        |       Program exiting...
+        |

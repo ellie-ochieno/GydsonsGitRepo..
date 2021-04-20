@@ -72,26 +72,6 @@ while LK_1~=0
                 end
             end
         end
-
-        %defining area and parameters for Y     
-        for k=1:number_of_strategy_2-1
-            for i=1:number_of_strategy_2
-                %setting the conditions to validate the calculation             
-                if 1~=k
-                    if Y_reduced(k,:) < Y_reduced(1,:)
-                       zero_strategy_2(end+1) =  nonzero_strategy_2(k)
-                       nonzero_strategy_2(k) = []
-                       Y_reduced(k,:) = []
-                       X_reduced(:,k) = []
-                       pp = pp+1;
-                       number_of_strategy_2 = number_of_strategy_2 - 1;
-                       disp(' Reduced rows from matrix Y ');
-                    end
-                end
-                if pp>0 break
-                end
-            end
-        end
     end
 end
 

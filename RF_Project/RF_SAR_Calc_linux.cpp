@@ -1,4 +1,13 @@
 /*
+
+%%=============================================================
+%%				              
+%%	Author: ochieno eliud	                          
+%%	University of Nairobi			  
+%%	Dept: Elec. $ Info. Eng.		  
+%%					  
+%%==============================================================
+
 *support modules importation
 */
 #include<iostream>

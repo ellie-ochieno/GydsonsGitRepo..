@@ -1,10 +1,10 @@
 ##=============================================================
 #         FORMS THE PROJECT MAIN WINDOW INSTANCE              =
 #         HANDLES BOTH PYTHON2.7/3.X                          =
-#							     =
-#	Author: ochieno eliud				     =
-#	University of Nairobi				     =
-#	Dept: Elec. $ Info. Eng.			     =
+#							      =
+#	Author: ochieno eliud				      =
+#	University of Nairobi				      =
+#	Dept: Elec. $ Info. Eng.			      =
 #==============================================================
 
 try:

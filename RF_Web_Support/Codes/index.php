@@ -1,4 +1,15 @@
 <?php
+/*
+
+%%=============================================================
+%%				              
+%%	Author: ochieno eliud	                          
+%%	University of Nairobi			  
+%%	Dept: Elec. $ Info. Eng.		  
+%%					  
+%%==============================================================
+
+*/
     session_start();
         // tracks user session
     include 'includes/header.php';
